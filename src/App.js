@@ -36,6 +36,7 @@ function App() {
           </button>
         </form>
       </section>
+      <p>Paste in a HEX code to see corresponding tints</p>
       <section className='colors'>
         {list.map((color, index) => {
           return (
